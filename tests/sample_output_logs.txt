@@ -1,0 +1,52 @@
+STM32 Environmental Monitor
+Sampling internal temperature once per second.
+
+[1s] temp=26.4C  state=NORMAL
+[2s] temp=26.6C  state=NORMAL
+[3s] temp=26.5C  state=NORMAL
+[4s] temp=27.1C  state=NORMAL
+[5s] temp=28.9C  state=NORMAL
+[6s] temp=33.4C  state=NORMAL
+[7s] temp=38.7C  state=NORMAL
+[8s] temp=41.2C  state=HIGH-ALERT  *** HIGH TEMPERATURE ***
+[9s] temp=42.0C  state=HIGH-ALERT  *** HIGH TEMPERATURE ***
+[10s] temp=40.3C  state=HIGH-ALERT  *** HIGH TEMPERATURE ***
+---- LOG HISTORY ----
+t=1s  temp=26.4C  state=NORMAL
+t=2s  temp=26.6C  state=NORMAL
+t=3s  temp=26.5C  state=NORMAL
+t=4s  temp=27.1C  state=NORMAL
+t=5s  temp=28.9C  state=NORMAL
+t=6s  temp=33.4C  state=NORMAL
+t=7s  temp=38.7C  state=NORMAL
+t=8s  temp=41.2C  state=HIGH-ALERT
+t=9s  temp=42.0C  state=HIGH-ALERT
+t=10s  temp=40.3C  state=HIGH-ALERT
+---------------------
+[11s] temp=37.5C  state=NORMAL
+[12s] temp=32.8C  state=NORMAL
+[13s] temp=29.1C  state=NORMAL
+[14s] temp=27.0C  state=NORMAL
+[15s] temp=26.3C  state=NORMAL
+[16s] temp=25.9C  state=NORMAL
+[17s] temp=12.4C  state=NORMAL
+[18s] temp=6.8C  state=NORMAL
+[19s] temp=4.7C  state=LOW-ALERT  *** LOW TEMPERATURE ***
+[20s] temp=3.9C  state=LOW-ALERT  *** LOW TEMPERATURE ***
+---- LOG HISTORY ----
+t=11s  temp=37.5C  state=NORMAL
+t=12s  temp=32.8C  state=NORMAL
+t=13s  temp=29.1C  state=NORMAL
+t=14s  temp=27.0C  state=NORMAL
+t=15s  temp=26.3C  state=NORMAL
+t=16s  temp=25.9C  state=NORMAL
+t=17s  temp=12.4C  state=NORMAL
+t=18s  temp=6.8C  state=NORMAL
+t=19s  temp=4.7C  state=LOW-ALERT
+t=20s  temp=3.9C  state=LOW-ALERT
+---------------------
+[21s] temp=5.6C  state=NORMAL
+[22s] temp=9.2C  state=NORMAL
+[23s] temp=145.0C  state=FAULT  *** SENSOR FAULT ***
+[24s] temp=18.7C  state=NORMAL
+[25s] temp=22.5C  state=NORMAL
