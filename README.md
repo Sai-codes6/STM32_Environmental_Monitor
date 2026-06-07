@@ -65,9 +65,6 @@ STM32_Environmental_Monitor/
 ├── LICENSE
 ├── .gitignore
 ├── docs/
-│   ├── Project_File_Guide.pdf
-│   ├── Interview_and_Viva_Preparation.pdf
-│   ├── Audit_Report.pdf
 │   ├── Architecture_Diagram.png
 │   └── Flowchart.png
 ├── Core/
