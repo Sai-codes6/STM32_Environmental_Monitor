@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Environmental Monitor (simulation)",
+      "type": "process",
+      "command": "gcc",
+      "args": [
+        "-std=c11",
+        "-Wall",
+        "-Wextra",
+        "-I", "Core/Inc",
+        "-I", "simulation",
+        "Core/Src/sensor.c",
+        "Core/Src/logger.c",
+        "simulation/adc_driver_host.c",
+        "simulation/uart_driver_host.c",
+        "simulation/timer_driver_host.c",
+        "simulation/main_host.c",
+        "-o", "env_monitor_sim"
+      ],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"],
+      "detail": "Compiles the host simulation into ./env_monitor_sim"
+    }
+  ]
+}
